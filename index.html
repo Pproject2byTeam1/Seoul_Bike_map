@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    
    
-   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8eb4cb628a81967386ed7ffb18fc3ff6"></script>
+   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=(자신의API를 넣으세요)"></script>
 
    <script type="text/javascript">
       
@@ -22,7 +22,7 @@
          
          console.log($("#search2").val());
          
-         const api = "http://openapi.seoul.go.kr:8088/5277726450716a61373762714d4170/json/tbCycleStationInfo/1/" + $('#search').val();
+         const api = "http://openapi.seoul.go.kr:8088/(자신의API를 넣으세요)/json/tbCycleStationInfo/1/" + $('#search').val();
          
          $.getJSON(api, function(data){
             
